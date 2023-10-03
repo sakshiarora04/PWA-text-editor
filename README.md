@@ -12,7 +12,6 @@ To build this text editor, we have implemented methods for getting and storing d
 - [Technologies](#technologies)
 - [Contact Information](#contact-information)
 
-
 ## Installation
 
 - Download or clone repository from GitHub to local machine.

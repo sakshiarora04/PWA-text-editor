@@ -1,5 +1,6 @@
 import { openDB } from "idb";
 
+// check if database already exists
 const initdb = async () =>
   openDB("jate", 1, {
     upgrade(db) {
