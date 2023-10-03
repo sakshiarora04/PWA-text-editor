@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
     mode: "development",
     entry: {
       main: "./src/js/index.js",
-      install: "./src/js/install.js",     
+      install: "./src/js/install.js",
     },
     output: {
       filename: "[name].bundle.js",
@@ -68,7 +68,7 @@ module.exports = (env, argv) => {
         ],
       }),
     ],
-// CSS loaders and babel to webpack.
+    // CSS loaders and babel to webpack.
     module: {
       // CSS loaders
       rules: [
